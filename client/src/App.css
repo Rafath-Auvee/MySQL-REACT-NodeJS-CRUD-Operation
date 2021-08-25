@@ -1,0 +1,61 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    background-color: orangered;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    color: brown;
+    border: 2px solid orange;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+button {
+    width: 100px;
+    color: black;
+    background-color: green;
+    height: 50px;
+    margin-top: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.employees {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.employee {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: chartreuse;
+    border: 1px dashed black;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.employee h3 {
+    margin: 20px;
+}
